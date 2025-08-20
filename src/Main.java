@@ -23,5 +23,10 @@ public class Main {
         
         // Only print the constant term (secret C) as required by the assignment
         System.out.println(constant.setScale(2, RoundingMode.HALF_UP));
+
+        // FOR TESTING : RUN THESE COMMANDS IN THE CODESPACES-->
+        // javac -cp ".:lib/gson-2.10.1.jar" src/*.java -d bin
+        // java -cp "bin:lib/gson-2.10.1.jar" Main
+
     }
 }
